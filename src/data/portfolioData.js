@@ -15,7 +15,7 @@ export const portfolioData = {
   // --- Contact ---
   email: "[EMAIL]",
   phone: "[PHONE]",
-  location: "[CITY, COUNTRY]",
+  location: "The Philippines",
   school: "[CURRENT SCHOOL/INSTITUTION]",
 
   // --- Social Links ---
@@ -241,32 +241,7 @@ export const portfolioData = {
     },
   ],
 
-    projects: [
-    {
-      title: "[Project Title, e.g. Weekly Speaking Circle]",
-      description:
-        "[PLACEHOLDER: A short description of this teaching project — what it involved and what students gained from it.]",
-      category: "Speaking Activity",
-    },
-    {
-      title: "[Project Title, e.g. Graded Reading Program]",
-      description:
-        "[PLACEHOLDER: A short description of this teaching project — what it involved and what students gained from it.]",
-      category: "Reading Program",
-    },
-    {
-      title: "[Project Title, e.g. Grammar Workshop Series]",
-      description:
-        "[PLACEHOLDER: A short description of this teaching project — what it involved and what students gained from it.]",
-      category: "Workshop",
-    },
-    {
-      title: "[Project Title, e.g. Vocabulary Card Game]",
-      description:
-        "[PLACEHOLDER: A short description of this teaching project — what it involved and what students gained from it.]",
-      category: "Classroom Material",
-    },
-  ],
+  
 
   // --- Gallery Categories ---
   galleryCategories: ["Classroom", "Activities", "Events", "Workshops"],
