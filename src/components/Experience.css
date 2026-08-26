@@ -1,0 +1,128 @@
+.experience {
+  background-color: #fdfbf7;
+  padding: 4rem 1.5rem;
+}
+
+.experience-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2.5rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background-color: #e4dbc9;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -2.5rem;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #6b8f71;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.timeline-card {
+  background-color: #fff;
+  border: 1px solid #eee3d3;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 14px rgba(43, 42, 40, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.timeline-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(43, 42, 40, 0.08);
+}
+
+.timeline-dates {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #d98e73;
+  background-color: #fbe9df;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  margin-bottom: 0.75rem;
+}
+
+.timeline-position {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #2b2a28;
+  margin-bottom: 0.15rem;
+}
+
+.timeline-institution {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #6b8f71;
+  margin-bottom: 0.75rem;
+}
+
+.timeline-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #4a4844;
+  margin-bottom: 0.75rem;
+}
+
+.timeline-responsibilities {
+  list-style: disc;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.timeline-responsibilities li {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #4a4844;
+}
+
+@media (min-width: 768px) {
+  .experience {
+    padding: 6rem 2rem;
+  }
+
+  .timeline {
+    padding-left: 3rem;
+  }
+
+  .timeline::before {
+    left: 19px;
+  }
+
+  .timeline-marker {
+    left: -3rem;
+    width: 40px;
+    height: 40px;
+  }
+}
